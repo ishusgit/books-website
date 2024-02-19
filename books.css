@@ -1,0 +1,2515 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+section{
+    position:relative;
+    width:100%;
+    height:600px;
+    margin:0;
+    padding:0;
+}
+ section .section1{
+    position:relative;
+    width:100%;
+    height:500px;
+    transform:translateY(-560px);
+    display:flex;
+}
+ section .section1 .content{
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+    position:relative;
+    margin-top:50px;
+   width:700px;
+   height:300px;   
+}
+section .section1 .content h1{
+    font-size:44px;
+    font-family:'poppins',sans-serif;
+    text-align:center;
+    margin-top:80px;
+    font-weight:bold;
+    color:white;
+    text-transform:uppercase;  
+}
+section .section1 .content p{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    text-align:justify;
+    margin-top:20px;
+    line-height:26px;
+    font-weight:500;
+    color:white;
+    margin-left:10px;   
+}
+section .section1 .content button{
+    position:relative;
+    z-index:10000;
+    font-size:18px;
+    margin-top:25px;
+    font-weight:700;
+    border:none;
+    font-family:'poppins',sans-serif;
+    color:rgb(0, 0, 0);
+    background:linear-gradient(45deg,rgb(1, 82, 32),rgb(5, 237, 253),rgb(1, 82, 32));
+    text-transform:capitalize;
+    margin-left:120px;
+    border:none;
+    text-align:center;
+    padding:6px 5px;
+    width:120px;
+    border-radius:10px;
+    display:inline-block;
+}
+section .section1 .content .icons{
+    width:300px;
+    height:200px;
+   /** border:1px solid red;**/
+    display:flex;
+    margin-top:20px;
+    margin-left:30px;
+    position:relative;
+}
+section .section1 .book-image{
+    margin-left:10px;
+    width:750px;
+    height:570px;
+    margin-top:10px;
+    position:relative;
+   /** border:1px solid red;**/
+    display:flex;
+} 
+section .section1 .book-image .navbar ul{
+    list-style-type:none;
+    overflow:hidden;
+    margin:0;
+}
+section .section1 .book-image .navbar ul li{
+
+}
+section .section1 .book-image .navbar ul li a{
+      font-size:14px;
+      color:white;
+      text-transform:capitalize;
+      font-weight:500;
+      font-family:'poppins',sans-serif;
+      padding:15px 15px;text-decoration:none;
+}
+section .section1 .book-image .headings{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:-250px;
+    margin-top:60px;
+   /** border:1px solid red;**/
+}
+section .section1 .last-book{
+    margin-left:50px;
+    width:600px;
+    height:500px;
+    margin-top:80px;
+    position:relative;
+   /** border:1px solid red;**/
+    display:flex;
+    flex-direction:column;
+} 
+section .sticky-pins{
+    position: relative;
+   /** border:1px solid red;**/
+    display:flex;
+    margin-top:-560px;
+    margin-left:10px;
+}
+body{
+    background:linear-gradient(45deg,rgb(250, 53, 96),rgb(158, 2, 189),rgb(255, 68, 93),rgb(17, 21, 255),rgb(255,66,9),rgb(17,21,255));
+    min-height:450vh;
+}
+              /** EDUCATION BOOKS CONTENT STYLING**/
+.education{
+    position:relative;
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:column;
+    width:1150px;
+    height:480px;
+   /** border:1px solid red;**/
+    background:white;
+}
+.education .first{
+     display:flex;
+     justify-content:space-around;
+     margin-left:30px;
+     margin-right:30px;
+    /** border:1px solid blue;**/
+     margin-top:20px;
+     padding-bottom:20px;
+     border-bottom:2px solid rgb(221, 220, 220);
+}
+.education .first h1{
+    font-size:16px;
+    font-weight:700px;
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    color:rgb(127, 18, 131);
+    border-bottom:1px solid rgb(152, 252, 252); 
+    margin-top:5px;
+}
+.education .first .nav{
+    position:relative;
+    margin-top:5px;
+}
+.education .first .nav ul{
+    list-style-type:none;
+    display:flex;
+    overflow:hidden;
+    margin:0;
+}
+.education .first .nav ul li a{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:700;
+    color:rgb(0, 0, 0);
+    border-bottom:1px solid rgb(250, 250, 247);
+    padding:0 18px;
+    text-align:center;
+    text-decoration:none;
+}
+.education .second{
+    position:relative;
+    width:100%;
+    height:400px;
+   /** border:1px solid green;**/
+    display:flex;
+    margin-top:30px;
+    margin-left:0;
+}
+.education .second .book1{
+    position:relative;
+    display:flex;
+    margin-top:10px;
+   /** border:1px solid red;**/
+    width:365px;
+   /** background:rgb(25, 151, 253);**/
+   background:linear-gradient(45deg,rgb(0, 153, 255),rgb(123, 3, 128));
+    height:250px;
+    margin-left:0;
+    border-left:none;
+    border-top-right-radius:10px;
+    border-top-left-radius:none;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:none;
+    overflow:hidden;
+}
+.education .second .book1 .content{
+    position:relative;
+    margin-left:-90px;
+    margin-top:46px;
+   /** border:1px solid blue;**/
+    width:220px;
+    height:150px;
+}
+.education .second .book1 .content h1{
+    font-size:18px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:700;
+}
+.education .second .book1 .content p{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:13px;
+}
+.education .second .book1 .content .round{
+    position:relative;
+    margin-left:0px;
+    margin-top:8px;
+    display:flex;
+}
+.education .second .book2{
+    position:relative;
+    display:flex;
+    margin-top:10px;
+   /** border:1px solid red;**/
+    width:365px;
+    height:250px;
+    margin-left:45px;
+    border-radius:10px;
+    background:linear-gradient(45deg,rgb(255, 60, 0),rgb(255, 136, 0));
+}
+.education .second .book2 .content{
+    position:relative;
+    margin-left:25px;
+    margin-top:40px;
+   /** border:1px solid blue;**/
+    width:220px;
+    height:150px;
+}
+.education .second .book2 .content h1{
+    font-size:18px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:700;
+}
+.education .second .book2 .content p{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:13px;
+}
+.education .second .book2 .content .round{
+    position:relative;
+    margin-left:0px;
+    margin-top:8px;
+    display:flex;
+}
+.education .second .book3{
+    position:relative;
+    display:flex;
+    margin-top:10px;
+    width:360px;
+    height:250px;
+    margin-left:45px;
+    border-right:none;
+    border-top-left-radius:10px;
+    border-top-right-radius:none;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:none;
+    background:linear-gradient(40deg,rgb(250, 236, 38),rgb(46, 137, 255),rgb(250, 236, 38));
+}
+.education .second .book3 .content{
+    position:relative;
+    margin-left:25px;
+    margin-top:44px;
+   /** border:1px solid blue;**/
+    width:220px;
+    height:150px;
+}
+.education .second .book3 .content h1{
+    font-size:18px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:700;
+}
+.education .second .book3 .content p{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:13px;
+}
+.education .second .book3 .content .round{
+    position:relative;
+    margin-left:0px;
+    margin-top:8px;
+    display:flex;
+}
+                    /**super collection books content styling**/
+                    .super{
+                        position:relative;
+                        margin-top:120px;
+                        margin-left:290px;
+                        border-radius:10px;
+                        margin-right:auto;
+                        display:flex;
+                        flex-direction:column;
+                        width:1020px;
+                        height:340px;
+                       /** border:1px solid red;**/
+                        background:white;
+                    }
+                    .super .first{
+                         display:flex;
+                         justify-content:space-around;
+                         margin-left:30px;
+                         margin-right:30px;
+                        /** border:1px solid blue;**/
+                         margin-top:20px;
+                         padding-bottom:20px;
+                         border-bottom:2px solid rgb(221, 220, 220);
+                    }
+                    .super .first h1{
+                        font-size:16px;
+                        font-weight:700px;
+                        font-family:'poppins',sans-serif;
+                        text-transform:uppercase;
+                        color:#ff500b;
+                        border-bottom:1px solid rgb(152, 252, 252);
+                        
+                        margin-top:5px;
+                    }
+                    .super .first .navbar{
+                        position:relative;
+                        margin-top:5px;
+                    }
+                    .super .first .navbar ul{
+                        list-style-type:none;
+                        display:flex;
+                        overflow:hidden;
+                        margin:0;
+                        display:flex;
+                    }
+                    .super .first .navbar ul li a{
+                        font-size:14px;
+                        font-family:'poppins',sans-serif;
+                        font-weight:700;
+                        color:rgb(0, 0, 0);
+                        border-bottom:1px solid rgb(250, 250, 247);
+                        padding:0 18px;
+                        text-align:center;
+                        text-decoration:none;
+                        text-transform:capitalize;
+                    }
+                    .super .second{
+                        position:relative;
+                        width:100%;
+                        height:400px;
+                      /**  border:1px solid green;**/
+                        display:flex;
+                        margin-top:95px;
+                        margin-left:0px;
+                    }
+                    .super .second .comedy{
+                        position:relative;
+                        width:360px;
+                        height:120px;  
+                        display:flex;
+                        margin-left:20px;
+                        background:linear-gradient(rgb(22, 22, 44),rgb(177, 177, 3));
+                        border-radius:10px;
+                    }
+                    .super .second .comedy .content{
+                        position:relative;
+                        margin-left:20px;
+                        margin-top:15px;
+                       /** border:1px solid blue;**/    
+                    }
+                    .super .second .comedy .content h1{
+                        font-size:16px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:700;
+                    }
+                    .super .second .comedy .content .sub{
+                        position:relative;
+                        display:flex;
+                        margin-left:30px;
+                    }
+                    .super .second .comedy .content .sub p{
+                        font-size:14px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:500;
+                        margin-top:13px;
+                    }
+                    .super .second .romance{
+                        position:relative;
+                        width:350px;
+                        height:120px;
+                       /** border:1px solid blue;**/
+                        border-radius:10px;
+                        background:linear-gradient(rgb(7, 224, 224),rgb(255, 2, 2));
+                        display:flex;
+                        margin-left:30px;
+                    }
+                    .super .second .romance .content{
+                        position:relative;
+                        margin-left:-10px;
+                        margin-top:15px;
+                       /** border:1px solid blue;**/    
+                    }
+                    .super .second .romance .content h1{
+                        font-size:16px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:700;
+                    }
+                    .super .second .romance .content .sub{
+                        position:relative;
+                        display:flex;
+                        margin-left:30px;
+                    }
+                    .super .second .romance .content .sub p{
+                        font-size:14px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:500;
+                        margin-top:13px;
+                    }
+                    .super .second .drama{
+                        position:relative;
+                        width:260px;
+                        height:120px;
+                       /** border:1px solid blue;**/
+                        border-top-left-radius:10px;
+                        border-top-right-radius:none;
+                        border-bottom-left-radius:10px;
+                        border-bottom-right-radius:none;
+                        display:flex;
+                        margin-left:30px;
+                        background:linear-gradient(rgb(250, 43, 122),rgb(91, 11, 122));
+                    }
+                    .super .second .drama .content{
+                        position:relative;
+                        margin-left:20px;
+                        margin-top:15px;
+                       /** border:1px solid blue;**/    
+                    }
+                    .super .second .drama .content h1{
+                        font-size:16px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:700;
+                    }
+                    .super .second .drama .content p{
+                        font-size:14px;
+                        font-family:'poppins',serif;
+                        text-transform:capitalize;
+                        color:rgb(255, 255, 255);
+                        font-weight:500;
+                        margin-top:13px;
+                        margin-left:25px;
+                    }
+          /**popular books content styling**/
+
+.popular{
+    position:relative;
+    margin-top:60px;
+    margin-left:50px;
+    margin-right:auto;
+    display:flex;
+    flex-direction:column;
+    width:920px;
+    height:420px;
+   /** border:1px solid red;**/
+    background:white;
+    border-radius:10px;
+}
+.popular .first{
+     display:flex;
+     justify-content:space-around;
+     margin-left:30px;
+     margin-right:30px;
+    /** border:1px solid blue;**/
+     margin-top:20px;
+     padding-bottom:20px;
+     border-bottom:2px solid rgb(221, 220, 220);
+}
+.popular .first h1{
+    font-size:16px;
+    font-weight:700px;
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    color:#025e42;
+    border-bottom:1px solid rgb(152, 252, 252);
+    float:right;
+    margin-top:5px;
+}
+.popular .first .navbar{
+    position:relative;
+    margin-top:5px;
+}
+.popular .first .navbar ul{
+    list-style-type:none;
+    display:flex;
+    overflow:hidden;
+    margin:0;
+    display:flex;
+}
+.popular .first .navbar ul li a{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:700;
+    color:rgb(0, 0, 0);
+    border-bottom:1px solid rgb(250, 250, 247);
+    padding:0 18px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.popular .second{
+    position:relative;
+    width:100%;
+    height:400px;
+   /** border:1px solid green;**/
+    display:flex;
+    margin-top:40px;
+    margin-left:0px;
+}
+.popular .second .action{
+    position:relative;
+    width:230px;
+    height:260px;  
+    display:flex;
+    margin-left:30px;
+    background:linear-gradient(90deg,rgb(102, 2, 19),rgb(160, 8, 21));
+    border-radius:10px;
+}
+.popular .second .action .content{
+    position:relative;
+    margin-left:10px;
+    margin-top:15px;
+   /** border:1px solid blue; **/  
+}
+.popular .second .action .content h1{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    margin-left:12px;
+    font-size:16px;
+    margin-top:10px;
+}
+.popular .second .action .content p{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    font-size:12px;
+    margin-left:12px;
+    margin-top:10px;
+    width:130px;
+    text-align:justify;
+    margin-right:0px;
+}
+.popular .second .action .content .sub{
+    position:relative;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+}
+.popular .second .action .content .sub span{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:10px;
+    margin-left:0px;
+}
+.popular .second .action .content .round{
+    position:relative;
+    margin-left:20px;
+    margin-top:13px;
+    display:flex;
+}
+.popular .second .horror{
+    position:relative;
+    width:230px;
+    height:260px;  
+    display:flex;
+    margin-left:90px;
+    background:linear-gradient(90deg,rgb(250, 73, 19),rgb(248, 42, 6));
+    border-radius:10px;
+}
+.popular .second .horror .content{
+    position:relative;
+    margin-left:10px;
+    margin-top:15px;
+   /** border:1px solid blue; **/  
+}
+.popular .second .horror .content h1{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    margin-left:12px;
+    font-size:16px;
+    margin-top:10px;
+}
+.popular .second .horror .content p{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    font-size:12px;
+    margin-left:12px;
+    margin-top:10px;
+    width:130px;
+    text-align:justify;
+    margin-right:0px;
+}
+.popular .second .horror .content .sub{
+    position:relative;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+}
+.popular .second .horror .content .sub span{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:10px;
+    margin-left:0px;
+}
+.popular .second .horror .content .round{
+    position:relative;
+    margin-left:20px;
+    margin-top:13px;
+    display:flex;
+}
+.popular .second .musical{
+    position:relative;
+    width:230px;
+    height:260px;  
+    display:flex;
+    margin-left:90px;
+    background:linear-gradient(90deg,rgb(0, 71, 12),rgb(22, 172, 2));
+    border-radius:10px;
+}
+.popular .second .musical .content{
+    position:relative;
+    margin-left:10px;
+    margin-top:15px;
+   /** border:1px solid blue; **/  
+}
+.popular .second .musical .content h1{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    margin-left:12px;
+    font-size:16px;
+    margin-top:10px;
+}
+.popular .second .musical .content p{
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    font-size:12px;
+    margin-left:12px;
+    margin-top:10px;
+    width:130px;
+    text-align:justify;
+    margin-right:0px;
+}
+.popular .second .musical .content .sub{
+    position:relative;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+}
+.popular .second .musical .content .sub span{
+    font-size:14px;
+    font-family:'poppins',serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    margin-top:10px;
+    margin-left:0px;
+}
+.popular .second .musical .content .round{
+    position:relative;
+    margin-left:20px;
+    margin-top:13px;
+    display:flex;
+}
+.populars{
+    position:relative;
+    width:1100px;
+    height:460px;
+    display:flex;
+    margin-top:35px;
+   /** border:1px solid red;**/
+}
+.populars .author{
+    position:relative;
+    margin-left:120px;
+    display:flex;
+    flex-direction:column;
+    margin-top:138px;
+    border-radius:20px;
+    width:220px;
+    height:270px;
+   /** border:1px solid red;**/
+    background:rgb(84, 160, 179);
+}
+.populars .author h1{
+    font-size:14px;
+    font-family:'roboto',sans-serif;
+    font-weight:700;
+    text-align:center;
+    margin-top:25px;
+    color:rgb(250, 248, 248);
+    text-transform:uppercase;
+}
+.populars .author .images{
+    display:flex;
+    position:relative;
+    width:200px;
+    height:200px;
+    margin-left:20px;
+}
+.populars .author .images .one{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+}
+.populars .author .images .two{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    margin-left:18px;
+}
+.populars .author .images .two span{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    margin-left:5px;
+    margin-top:15px;
+}
+                  /**business books content styling**/
+.business{
+    position:relative;
+    margin-top:110px;
+   /** border:1px solid red;**/
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50px;
+    width:1000px;
+    height:600px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+} 
+.business .top{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    margin-top:20px;
+    margin-left:10px;
+   /** border:1px solid red;**/
+} 
+.business .top .search{
+    position:relative;
+    width:480px;
+    height:38px;
+    background:rgb(228, 226, 226);
+   /** border:1px solid rgb(43, 42, 42);**/
+    display:flex;
+    border-radius:6px;
+    border:none;
+    justify-content:space-between;
+    margin-top:8px;
+} 
+.business .top .search h1{
+    font-size:14px;
+    font-weight:700;
+    font-family:'roboto',sans-serif;
+    color:rgb(255, 255, 255);
+    padding:10px 21px;
+    text-align:center;
+}
+.business .middle{
+    position:relative;
+    margin-top:25px;
+   /** border:1px solid green;**/
+    border-bottom-left-radius:50px;
+    width:1000px;
+    height:505px;
+    margin-left:0px;
+    margin-right:0px;
+    display:flex;
+} 
+.business .middle .first{
+    position:relative;
+    border-top-right-radius:50px;
+    border-top-left-radius:none;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:none;
+    width:240px;
+    margin-left:0px;
+    height:506px;
+   /** border:1px solid green;**/
+    background:rgb(255, 6, 110);
+    display:flex;
+    flex-direction:column;
+}
+.business .middle .first h1{
+    font-size:18px;
+    font-weight:500px;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 251, 5);
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:21px;
+   /** border-bottom:1px solid rgb(218, 217, 217);**/
+    margin-bottom:8px;
+    overflow:hidden;
+}
+.business .middle .first .navbar{
+    margin-top:5px;
+}
+.business .middle .first .navbar ul{
+    list-style-type:none;
+    margin:2px;
+    padding:0;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+.business .middle .first li{
+    padding-top:14px;
+    padding-left:10px;
+}
+.business .middle .first .navbar li a{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:white;
+    text-align:center;
+    padding:10px 30px;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.business .middle .first .authors{
+    position:relative;
+    margin-top:35px;
+   /** border:1px solid blue;**/
+    margin-left:50px;
+    background:rgb(22, 255, 158);
+    display:flex;
+    flex-direction:column;
+    border-top-left-radius:18px;
+    border-bottom-left-radius:18px;
+    border-top-left-radius:none;
+    border-bottom-right-radius:none;
+    width:190px;
+    height:200px;    
+}
+.business .middle .first .authors h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(214, 9, 255);
+    text-align:center;
+    margin-top:8px;
+}
+.business .middle .first .authors .images{
+    display:flex;
+    margin-top:2px;
+    position: relative;
+    width:190px;
+    height:170px;
+   /** border:1px solid red;**/
+}
+.business .middle .first .authors .images .one{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+.business .middle .first .authors .images .two{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+.business .middle .first .authors .images .two span{
+    font-size:14px;
+    font-weight:300;
+    font-family:'roboto',sans-serif;
+    margin-left:18px;
+    color:white;
+    padding-top:8px;
+}
+.business .middle .second{
+    position:relative;
+   /** border:1px solid red;**/
+    margin-top:0px;
+    width:700px;
+    margin-left:45px;
+    height:505px;
+    display:flex;
+    flex-direction:column;
+}
+.business .middle .second .row1{
+   position:relative;
+   display:flex;
+   margin-top:20px;
+  /** border:1px solid blue;**/
+   margin-left:15px;
+   width:680px;
+   height:170px;
+}
+.business .middle .second .row1 .biographics{
+    position:relative;
+    width:300px;
+    height:140px;
+   /** border:1px solid green;**/
+    background:rgb(45, 16, 99);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+    margin-top:20px;
+}
+.business .middle .second .row1 .biographics::before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgb(54, 16, 99);
+    left:121px;
+    top:-19px;
+}
+.business .middle .second .row1 .biographics h1{
+    font-size:18px;
+    font-weight:700;
+    font-weight:'poppins',sans-serif;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    padding-top:15px;
+    z-index:10000;
+    letter-spacing:0.99px;
+}
+.business .middle .second .row1 .biographics .sub{
+    position:relative;
+    width:300px;
+    height:120px;
+    display:flex;
+}
+.business .middle .second .row1 .biographics .sub .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:22px;
+}
+.business .middle .second .row1 .biographics .sub .content h1{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+}
+.business .middle .second .row1 .biographics .sub .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+    margin-top:10px;
+    padding-left:5px;
+}
+.business .middle .second .row1 .biographics .sub .content span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(216, 212, 212);
+    margin-top:10px;
+    padding-left:5px;
+}
+.business .middle .second .row1 .economics{
+    position:relative;
+    width:300px;
+    height:140px;
+   /** border:1px solid green;**/
+    background:rgb(202, 29, 81);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+    margin-top:20px;
+    margin-left:35px;
+}
+.business .middle .second .row1 .economics::before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgb(202, 29, 81);
+    left:121px;
+    top:-19px;
+}
+.business .middle .second .row1 .economics h1{
+    font-size:18px;
+    font-weight:700;
+    font-weight:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    padding-top:15px;
+    z-index:10000;
+    letter-spacing:0.99px;
+}
+.business .middle .second .row1 .economics .sub{
+    position:relative;
+    width:300px;
+    height:120px;
+    display:flex;
+}
+.business .middle .second .row1 .economics .sub .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:22px;
+}
+.business .middle .second .row1 .economics .sub .content h1{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+}
+.business .middle .second .row1 .economics .sub .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .row1 .economics .sub .content span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(216, 212, 212);
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .row2{
+    position:relative;
+    display:flex;
+    margin-top:35px;
+    /**border:1px solid blue;**/
+    margin-left:15px;
+    width:680px;
+    height:160px;
+ }
+ .business .middle .second .row2 .leadership{
+    position:relative;
+    width:300px;
+    height:140px;
+   /** border:1px solid green;**/
+    background:rgb(255, 97, 171);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+    margin-top:20px;
+    margin-left:0px;
+}
+.business .middle .second .row2 .leadership::before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgb(255, 97, 171);
+    left:121px;
+    top:-19px;
+}
+.business .middle .second .row2 .leadership  h1{
+    font-size:18px;
+    font-weight:700;
+    font-weight:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    padding-top:15px;
+    z-index:10000;
+    letter-spacing:0.99px;
+}
+.business .middle .second .row2 .leadership .sub{
+    position:relative;
+    width:300px;
+    height:120px;
+    display:flex;
+}
+.business .middle .second .row2 .leadership .sub .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:18px;
+}
+.business .middle .second .row2 .leadership .sub .content h1{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+}
+.business .middle .second .row2 .leadership .sub .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .row2 .leadership .sub .content span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(216, 212, 212);
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .row2 .management{
+    position:relative;
+    width:300px;
+    height:140px;
+   /** border:1px solid green;**/
+    background:rgb(16, 223, 95);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+    margin-top:20px;
+    margin-left:35px;
+}
+.business .middle .second .row2 .management::before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgb(16, 223, 95);
+    left:121px;
+    top:-19px;
+}
+.business .middle .second .row2 .management h1{
+    font-size:18px;
+    font-weight:700;
+    font-weight:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    padding-top:15px;
+    z-index:10000;
+    letter-spacing:0.99px;
+}
+.business .middle .second .row2 .management .sub{
+    position:relative;
+    width:300px;
+    height:120px;
+    display:flex;
+}
+.business .middle .second .row2 .management .sub .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+}
+.business .middle .second .row2 .management .sub .content h1{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+}
+.business .middle .second .row2 .management .sub .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform: capitalize;
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .row2 .management .sub .content span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(216, 212, 212);
+    margin-top:10px;
+    margin-left:15px;
+}
+.business .middle .second .customer{
+    position:relative;
+    margin-top:68px;
+    margin-left:180px;
+    width:300px;
+    height:130px;
+   /** border:1px solid red;**/
+    background:rgb(62, 184, 221);
+    display:flex;  
+    border-radius:15px;
+    border:none; 
+}
+.business .middle .second .customer::before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgb(62, 184, 221);
+    left:120px;
+    top:-19px;
+}
+.business .middle .second .customer .content{
+    position:relative;
+    margin-left:25px;
+    display:flex;
+    flex-direction:column;
+    margin-top:15px;
+}
+.business .middle .second .customer .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:0.6px;
+}
+.business .middle .second .customer .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform:capitalize;
+    margin-top:3px;
+}
+.business .middle .second .customer .content span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-transform:capitalize;
+    margin-top:3px;
+}
+.business .middle .second .customer .content h2{
+    font-size:12px;
+    font-weight:300;
+    font-family:'poppins',sans-serif;
+    color:rgb(219, 219, 219);
+    text-transform:capitalize;
+    margin-top:3px;
+}
+                  /**genres books content styling**/
+.genres{
+    position:relative;
+    margin-top:130px;
+    display:flex;
+    flex-direction:column;
+    width:1120px;
+    height:400px;
+  /**  border:1px solid red;**/
+    margin-left:auto;
+    margin-right:auto;
+    background:white;
+    border-radius:15px;
+}
+.genres .first{
+    position:relative;
+    display:flex;
+    margin-left:0px;
+    margin-top:0px;
+    /** border:1px solid blue;**/
+    display:flex;
+    margin-left:0px;
+     margin-right:30px;
+    /** border:1px solid blue;**/
+     padding-bottom:20px;
+}
+.genres .first h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(43, 43, 43);
+    margin-top:15px;
+    text-align:center;
+    text-transform:uppercase;
+    padding-left:5%;
+    margin-left:30px;
+}
+.genres .first .sub{
+    position:relative;
+    margin-top:0px;
+    background:rgb(1, 82, 119);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:none;
+    border-top-right-radius:none;
+    margin-left:485px;
+}
+.genres .first .sub .navbar{
+    position:relative;
+    margin-left:20px;
+    margin-top:10px;
+}
+.genres .first .sub .navbar ul{
+    display:flex;
+    list-style-type:none;
+    overflow:hidden;
+    margin:0;
+}
+.genres .first .sub .navbar li{
+    float:right;
+}
+.genres .first .sub .navbar ul li a{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    padding:30px 18px;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+.genres .second{
+    position:relative;
+    margin-top:35px;
+    width:100%;
+    height:300px;
+   /** border:1px solid green;**/
+    display:flex;
+    margin-left:0px;
+}
+.genres .mystery{
+    position:relative;
+    width:380px;
+    height:230px;
+   /** border:1px solid blue;**/
+    background:linear-gradient(rgb(241, 43, 182),rgb(255, 0, 64),rgb(253, 186, 2));
+    display:flex;
+    margin-left:0px;
+}
+.genres .mystery .content{
+    position:relative;
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+.genres .mystery .content h1{
+    font-size:18px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+}
+.genres .mystery .content h2{
+    font-size:14px;
+    font-weight:500;
+    text-transform:capitalize;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+}
+.genres .mystery .content .subb{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.genres .mystery .content .subb span{
+    font-size:12px;
+    font-weight:500;
+    margin-left:19px;
+    margin-top:9px;
+    color:rgb(255, 255, 255);
+}
+.genres .mystery .content p{
+    font-size:12px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-top:17px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.genres .mystery .content button{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    display:block;
+    margin-top:19px;
+    padding:5px 5px;
+    margin-left:20px;
+   text-align:center;
+   text-transform:uppercase;
+   background:rgb(61, 1, 26);
+   width:130px;
+   border-radius:10px;
+   border:none;
+}
+.genres .game{
+    position:relative;
+    width:380px;
+    height:230px;
+   /** border:1px solid blue;**/
+    display:flex;
+    margin-left:0px;
+    background:linear-gradient(rgb(5, 56, 5),rgb(0, 0, 0));
+}
+.genres .game .content{
+    position:relative;
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+.genres .game .content h1{
+    font-size:18px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+}
+.genres .game .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(225, 225, 255);
+    margin-top:10px;
+    text-transform:capitalize;
+}
+.genres .game .content .subb{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.genres .game .content .subb span{
+    font-size:12px;
+    font-weight:500;
+    margin-left:19px;
+    margin-top:9px;
+    color:rgb(255, 255, 255);
+}
+.genres .game .content p{
+    font-size:12px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-top:17px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.genres .game .content button{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    display:block;
+    margin-top:19px;
+    padding:5px 5px;
+    margin-left:20px;
+   text-align:center;
+   text-transform:uppercase;
+   border:none;
+   width:130px;
+   border-radius:10px;
+   background:rgb(1, 88, 84);
+}
+.genres .adventure{
+    position:relative;
+    width:381px;
+    height:230px;
+    margin-right:0px;
+    /**border:1px solid blue;**/
+    display:flex;
+    margin-left:0px;
+    background:linear-gradient(rgb(255, 4, 4),rgb(8, 165, 8),rgb(3, 3, 185));
+}
+.genres .adventure .content{
+    position:relative;
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+.genres .adventure .content h1{
+    font-size:18px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+}
+.genres .adventure .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+    text-transform:capitalize;
+}
+.genres .adventure .content .subb{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.genres .adventure .content .subb span{
+    font-size:12px;
+    font-weight:500;
+    margin-left:19px;
+    margin-top:9px;
+    color:rgb(250, 255, 255);
+}
+.genres .adventure .content p{
+    font-size:12px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-top:17px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.genres .adventure .content button{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    display:block;
+    margin-top:19px;
+    border:none;
+    padding:5px 5px;
+    margin-left:20px;
+   text-align:center;
+   text-transform:uppercase;
+   width:130px;
+   border-radius:10px;
+   background:rgb(0, 114, 15);
+}
+                 /**fantasy books content styling**/
+.fantasy{
+    position:relative;
+    margin-top:95px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1090px;
+    height:450px;
+   /** border:1px solid red;**/
+    border-radius:9px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+}
+.fantasy .first{
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+    margin-top:0px;
+    background:rgb(224, 165, 2);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    border:none;
+    width:100%;
+    height:48px;
+}
+.fantasy .first h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(32, 8, 253);
+    text-transform:uppercase;
+    padding:0 4%;
+    margin-top:12px;
+}
+.fantasy .first .navbar{
+    position:relative;
+    margin-top:12px;
+    border-bottom:none;
+}
+.fantasy .first .navbar ul{
+    list-style-type:none;
+    display:flex;
+    overflow:hidden;
+    margin:0;
+    display:flex;
+}
+.fantasy .first .navbar ul li a{
+    font-size:14px;
+    font-family:'poppins',sans-serif;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    border-bottom:1px solid rgb(250, 250, 247);
+    padding:0px 18px;
+    text-align:center;
+    text-decoration:none;
+    border-bottom:none;
+    text-transform:capitalize;
+}
+.fantasy .second{
+    position:relative;
+    margin-top:55px;
+    margin-left:0;
+    display:flex;
+   /** border:1px solid green;**/
+    width:100%;
+    height:400px;
+}
+.fantasy .second .immersive{
+    position:relative;
+    width:230px;
+    height:280px;
+   /** border:1px solid blue;**/
+    margin-left:58px;
+    transform-style:preserve-3d;
+    transform:perspective(2000px);
+}
+.fantasy .second .immersive:hover{
+    z-index:1;
+    transform: perspective(2000px);
+    box-shadow:inset 10px 0 50px rgba(0,0,0,0.5);
+}
+.fantasy .second .immersive .front{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    transform-origin: left;
+    z-index:1;
+    transition:1s;
+}
+.fantasy .second .immersive:hover .front{
+    transform: rotateY(-128deg);
+    cursor: pointer;
+}
+.fantasy .second .immersive .front img{
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.fantasy .second .immersive .content{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    padding:18px;
+}
+.fantasy .second .immersive .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(37, 37, 37);
+    text-transform:uppercase;
+}
+.fantasy .second .immersive .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(117, 116, 116);
+    text-transform:capitalize;
+    margin-top:6px;
+}
+.fantasy .second .immersive .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(83, 82, 82);
+    text-transform:capitalize;
+    margin-top:10px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.fantasy .second .immersive .content .sub{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.fantasy .second .immersive .content .sub span{
+    position:relative;
+    display:flex;
+    margin-top:8px;
+    margin-left:19px;
+}
+.fantasy .second .immersive .content button{
+    position:relative;
+    font-size:14px;
+    font-weight:500;
+    margin-top:20px;
+    margin-left:30px;
+    padding:5px 4px;
+    width:130px;
+    display:block;
+    border-radius:10px;
+    border:none;
+    background:pink;
+    color:black;
+    text-transform:capitalize;
+}
+.fantasy .second .immersive .front .content .images{
+    position:relative;
+    height:25px;
+   /** border:1px solid blue;**/
+    display:flex;
+    margin-top:16px;
+    margin-left:34px;
+}
+.fantasy .second .intrusion{
+    position:relative;
+    width:230px;
+    height:280px;
+    /**border:1px solid blue;**/
+    margin-left:148px;
+    transform-style:preserve-3d;
+    transform:perspective(2000px);
+}
+.fantasy .second .intrusion:hover{
+    z-index:1;
+    transform: perspective(2000px);
+    box-shadow:inset 10px 0 50px rgba(0,0,0,0.5);
+}
+.fantasy .second .intrusion .front{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    transform-origin: left;
+    z-index:1;
+    transition:1s;
+}
+.fantasy .second .intrusion:hover .front{
+    transform: rotateY(-120deg);
+    cursor: pointer;
+}
+.fantasy .second .intrusion .front img{
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.fantasy .second .intrusion .content{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    padding:18px;
+}
+.fantasy .second .intrusion .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(49, 49, 49);
+    text-transform:uppercase;
+}
+.fantasy .second .intrusion .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(97, 97, 97);
+    text-transform:capitalize;
+    margin-top:6px;
+}
+.fantasy .second .intrusion .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(95, 95, 95);
+    text-transform:capitalize;
+    margin-top:10px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.fantasy .second .intrusion .content .sub{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.fantasy .second .intrusion .content .sub span{
+    position:relative;
+    display:flex;
+    margin-top:8px;
+    margin-left:19px;
+}
+.fantasy .second .intrusion .content button{
+    position:relative;
+    font-size:14px;
+    font-weight:500;
+    margin-top:38px;
+    margin-left:30px;
+    padding:5px 4px;
+    width:130px;
+    display:block;
+    border-radius:10px;
+    border:none;
+    background:pink;
+    color:black;
+    text-transform:capitalize;
+}
+.fantasy .second .intrusion .front .content .images{
+    position:relative;
+    height:25px;
+   /** border:1px solid blue;**/
+    display:flex;
+    margin-top:10px;
+    margin-left:10px;
+}
+.fantasy .second .liminal{
+    position:relative;
+    width:230px;
+    height:280px;
+    /**border:1px solid blue;**/
+    margin-left:165px;
+    transform-style:preserve-3d;
+    transform:perspective(2000px);
+}
+.fantasy .second .liminal:hover{
+    z-index:1;
+    transform: perspective(2000px);
+    box-shadow:inset 10px 0 50px rgba(0,0,0,0.5);
+}
+.fantasy .second .liminal .front{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    transform-origin: left;
+    z-index:1;
+    transition:1s;
+}
+.fantasy .second .liminal:hover .front{
+    transform: rotateY(-125deg);
+    cursor: pointer;
+}
+.fantasy .second .liminal .front img{
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.fantasy .second .liminal .content{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    padding:18px;
+}
+.fantasy .second .liminal .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(51, 51, 51);
+    text-transform:uppercase;
+}
+.fantasy .second .liminal .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(133, 132, 132);
+    text-transform:capitalize;
+    margin-top:6px;
+}
+.fantasy .second .liminal .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(139, 139, 139);
+    text-transform:capitalize;
+    margin-top:10px;
+    margin-left:2px;
+    margin-right:8px;
+    text-align:justify;
+}
+.fantasy .second .liminal .content .sub{
+    position:relative;
+    display:flex;
+    margin-top:9px;
+}
+.fantasy .second .liminal .content .sub span{
+    position:relative;
+    display:flex;
+    margin-top:8px;
+    margin-left:19px;
+}
+.fantasy .second .liminal .content button{
+    position:relative;
+    font-size:14px;
+    font-weight:500;
+    margin-top:39px;
+    margin-left:30px;
+    padding:5px 4px;
+    width:130px;
+    display:block;
+    border-radius:10px;
+    border:none;
+    background:pink;
+    color:black;
+    text-transform:capitalize;
+}
+.fantasy .second .liminal .front .content .images{
+    position:relative;
+    height:25px;
+    border:1px solid blue;
+    display:flex;
+    margin-top:24px;
+    margin-left:38px;
+}
+                   /**science book content styling**/
+.science{
+    position:relative;
+    width:1100px;
+    height:600px;
+   /** border:1px solid red;**/
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+}
+.science .left{
+    position:relative;
+    display:flex;
+    width:390px;
+    height:450px;
+   /** border:1px solid red;**/
+    margin-left:-870px;
+    margin-top:40px;
+}
+.science .left .sub-img{
+    position:relative;
+    display:flex;
+    margin-top:30px;
+    flex-direction:column;
+    width:115px;
+    height:400px;
+    margin-left:15px;
+   /** border:1px solid blue;**/
+}
+.science .right{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width:350px;
+    height:400px;
+   /** border:1px solid red;**/
+    margin-top:55px;
+    margin-left:70px;
+}
+.science .right h1{
+    font-size:22px;
+    font-weight:900;
+    color:blue;
+    text-transform:capitalize;
+    font-family:'poppins',sans-serif;
+    margin-top:0px;
+    margin-left:20px;
+    letter-spacing:0.9px;
+}
+.science .right h2{
+    font-size:12px;
+    font-weight:500;
+    color:rgb(255, 90, 90);
+    font-family:'poppins',sans-serif;
+    margin-top:6px;
+    margin-left:20px;
+}
+.science .right .sub{
+    position:relative;
+    display:flex;
+    margin-left:10px;
+    margin-top:15px;
+}
+.science .right .sub span{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 5, 142);
+    margin-left:30px;
+    text-transform:capitalize;
+}
+.science .right .sub a{
+    font-size:14px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(2, 9, 116);
+    margin-left:30px;
+    text-transform:capitalize;
+}
+.science .right p{
+    font-size:12px;
+    font-family:'poppins',sans-serif;
+    font-weight:500;
+    color:rgb(8, 8, 8);
+    margin-left:20px;
+    margin-right:20px;
+    text-align:justify;
+    margin-top:20px;
+}
+.science .right .last{
+    position:relative;
+    margin-top:15px;
+    margin-left:20px;
+    display:flex;
+}
+.science .right .last a{
+    display:inline;
+    font-size:16px;
+    font-weight:700;
+    color:white;
+    background:blue;
+    text-transform:capitalize;
+    text-decoration:none;
+    padding-top:5px;
+    padding-left:6px;
+    text-align:center;
+    margin-left:55px;
+    border-radius:12px;
+    width:130px;
+    height:30px;
+}
+             /**offers book styling**/
+.offers{
+    position:relative;
+    width:1130px;
+    height:300px;
+   /** border:1px solid red;**/
+    margin-top:94px;
+    margin-left:55px;
+    margin-right:auto;
+    display:flex;
+   /** background:white;**/
+}
+.offers .main{
+    position:relative;
+    margin-left:0px;
+   /** border:1px solid blue;**/
+    width:850px;
+    height:300px;
+    margin-top:0px;
+   /** background:white;**/
+    display:flex;
+}
+.offers .main .offbook{
+    position:relative;
+    width:400px;
+    height:280px;
+  /** border:1px solid green;**/
+    margin-left:180px;
+    border-radius:8px;
+    display:flex;
+    background:linear-gradient(45deg,rgb(255, 21, 5),rgb(255, 21, 5));
+}
+.offers .main .offbook .image{
+    position:relative;
+    margin-top:80px;
+    margin-left:-100px;
+   /** border:1px solid red;**/
+    width:200px;
+    height:150px;
+}
+.offers .main .offbook .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    height:280px;
+   /** border:1px solid rgb(84, 2, 92);**/
+    border:none;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:10px;
+}
+.offers .main .offbook .content .sub-image{
+    display:flex;
+    width:310px;
+    height:100px;
+   /** border:1px solid green;**/
+    margin-top:10px;
+    margin-left:0px;
+    background:rgb(235, 233, 233);
+    border-top-left-radius:10px;
+    border-top-right-radius:none;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:none;
+}
+.offers .main .offbook .content h1{
+    font-size:16px;
+    font-weight:900;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:25px;
+    margin-left:0px;
+}
+.offers .main .offbook .content p{
+    font-size:14px;
+    font-weight:500;
+    color:white;
+    text-align:justify;
+    margin-left:13px;
+    margin-right:13px;
+    text-align:center;
+    margin-top:17px;
+}
+.offers .main .offbook .content span{
+    font-size:16px;
+    font-weight:500;
+    color:rgb(252, 235, 2);
+    text-transform:capitalize;
+    margin-top:13px;
+    margin-left:10px;
+}
+.offers .main .offbook .content h2{
+    font-size:18px;
+    font-weight:700;
+    color:rgb(2, 202, 152);
+    text-transform:uppercase;
+    margin-top:10px;
+    margin-left:10px;
+    text-align:center;
+}
+.offers .main .offbooks{
+    position:relative;
+    width:400px;
+    height:280px;
+   /** border:1px solid green;**/
+    margin-left:0px;
+    display:flex;
+    flex-direction:column;
+    background:linear-gradient(45deg,rgb(1, 140, 255),rgb(1, 162, 226));
+    border-radius:8px;
+}
+.offers .main .offbooks .image{
+    position:relative;
+   /** border:1px solid red;**/
+    width:100px;
+    height:100px;
+    transform:translateY(-60px);
+    margin-left:80px;
+}
+.offers .main .offbooks .contents{
+    position:relative;
+    width:390px;
+    height:270px;
+    display:flex;
+    margin-top:-10px;
+}
+.offers .main .offbooks .contents .content{
+    position:relative;
+   /** border:1px solid green;**/
+    width:290px;
+    height:270px;
+    margin-top:-25px;
+    display:flex;
+    flex-direction:column;
+}
+.offers .main .offbooks .contents .content h1{
+    font-size:18px;
+    font-weight:900;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:'poppins',sans-serif;
+    margin-top:0px;
+}
+.offers .main .offbooks .contents .content p{
+    font-size:14px;
+    font-weight:500;
+    text-align:justify;
+    margin-left:15px;
+    margin-right:15px;
+    color:white;
+    margin-top:12px;
+}
+.offers .main .offbooks .contents .content span{
+    font-size:16px;
+    font-weight:500;
+    margin-left:15px;
+    text-transform:capitalize;
+    margin-top:14px;
+    color:rgb(81, 2, 112);
+}
+.offers .main .offbooks .contents .content h2{
+    font-size:18px;
+    font-weight:700;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:14px;
+    color:rgb(255, 230, 1);
+}
+.offers .main .offbooks .contents .sub-image{
+    position:relative;
+    width:100px;
+    height:260px;
+   /** border:1px solid blue;**/
+    margin-left:10px;
+    background:white;
+    margin-top:-70px;
+    border-top-left-radius:10px;
+    border-top-right-radius:none;
+    border-bottom-left-radius:none;
+    border-bottom-right-radius:8px;
+}
+                     /**footer content styling**/
+.footer{
+    position:relative;
+    margin-top:85px;
+    width:100%;
+    height:340px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    background:rgb(1,28,104);     /**245,69,83---orangeish pink color**/ /**6,66,1**---dark green color**/   
+    display:flex;
+    flex-direction:column;
+    margin-bottom:0;
+}
+.footer .first{
+    position:relative;
+    width:100%;
+    height:250px;
+    display:flex;
+}
+.footer .catagories{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width:240px;
+    height:250px;
+   /** border:1px solid red;**/
+    margin-top:10px;
+    margin-left:15px;
+}
+.footer .catagories h1{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    text-align:center;
+    margin-top:10px;
+    border-bottom:2px solid rgb(253, 208, 4);
+    display:block;
+    text-transform:uppercase;
+    color:white;
+    width:130px;
+    padding-bottom:10px;
+    margin-left:10px;
+}
+.footer .catagories ul{
+    list-style-type:none;
+    margin-top:15px;
+}
+.footer .catagories ul li{
+    padding:5px 15px;
+}
+.footer .catagories ul li a{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(228, 228, 228);
+    text-decoration:none;
+    text-transform:capitalize;
+    padding:5px 15px;
+}
+.footer .contact{
+    position:relative;
+    margin-left:10px;
+    margin-top:10px;
+  /**  border:1px solid red;**/
+    width:260px;
+    height:250px;
+    display:flex;
+    flex-direction:column;
+}
+.footer .contact h1{
+    font-size:14px;
+    font-weight:500;
+    font-weight:'poppins',sans-serif;
+    margin-top:10px;
+    text-align:center;
+    border-bottom:2px solid rgb(250, 230, 3);
+    color:rgb(255, 255, 255);
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    width:100px;
+    padding-bottom:10px;
+    margin-left:20px;
+}
+.footer .contact p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(224, 224, 224);
+    text-align:justify;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:15px;
+}
+.footer .contact span{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(221, 218, 218);
+    text-align:justify;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.footer .subscribe{
+    position:relative;
+    margin-left:20px;
+    margin-top:10px;
+   /** border:1px solid red;**/
+    width:260px;
+    height:250px;
+    display:flex;
+    flex-direction:column;
+}
+.footer .subscribe h1{
+    font-size:14px;
+    font-weight:500;
+    padding-bottom:10px;
+    width:90px;
+    margin-top:10px;
+    margin-left:20px;
+    text-align:center;
+    border-bottom:2px solid rgb(255, 230, 3);
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    font-family:'poppins',sans-serif;
+}
+.footer .subscribe p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(218, 218, 218);
+    margin-top:22px;
+    margin-left:20px;
+    margin-right:10px;
+    text-align:justify;
+}
+.footer .first .about{
+    position:relative;
+    display:flex;
+    width:500px;
+    height:250px;
+  /**  border:1px solid red;**/
+    margin-left:10px;
+    margin-top:10px;
+}
+.footer .first .about .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-left:15px;
+    width:300px;
+    height:250px;
+}
+.footer .first .about .content h1{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:10px;
+    border-bottom:2px solid yellow;
+    padding-bottom:10px;
+    width:90px;
+}
+.footer .first .about .content h2{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(226, 218, 218);
+    text-transform:capitalize;
+    margin-top:10px;
+    margin-left:10px;
+}
+.footer .first .about .content p{
+    font-size:12px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(223, 221, 221);
+    text-align:justify;
+    margin-top:21px;
+    margin-left:15px;
+    margin-right:15px;
+}
+.footer .first .about .content .images{
+    position:relative;
+    display:flex;
+    width:160px;
+    height:30px;
+   /** border:1px solid red;**/
+    margin-top:5px;
+    margin-left:30px;
+}
+.footer .second{
+    position:relative;
+    width:100%;
+    margin-top:25px;
+    height:50px;
+   /** border:1px solid red;**/
+    display:flex;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
